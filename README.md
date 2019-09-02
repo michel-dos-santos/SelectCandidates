@@ -5,4 +5,4 @@ A ideia do projeto é auxiliar o recrutador a analisar as candidaturas recebidas
 # [Solução](solucao.md)
   Aqui você encontrará informações sobre a solução adotada, algoritmos, frameworks, testes, linguagem e banco de dados utilizados para compor a entrega do projeto. 
 # [Deploy](deploy.md)
-  Aqui você encontrará informações sobre o passa a passo para configurar o ambiente, buildar e rodar o projeto
+  Aqui você encontrará informações sobre o passa a passo para configurar o ambiente, buildar e rodar o projeto.
