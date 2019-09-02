@@ -50,7 +50,7 @@ Para resolver o problema de encontrar a menor distância entre dois pontos, foi 
        3 - Relaxamento das arestas 
     
     Para representar o mapa abaixo foi utilizado um arquivo [mapa.properties] onde contem a relação entre os vertices e suas arestas.
-    ![](./graph.png)
+![](./graph.png)
 
 # Frameworks
 
