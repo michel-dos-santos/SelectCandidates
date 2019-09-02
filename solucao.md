@@ -51,25 +51,30 @@ Para resolver o problema de encontrar a menor distância entre dois pontos, foi 
     
     Para representar o mapa abaixo foi utilizado um arquivo [mapa.properties] onde contem a relação entre os vertices e suas arestas.
 ![](./graph.png)
+    A representação deste grafo é:
+    A,B=5
+    B,A,C,D=5,7,3
+    C,B,E=7,4
+    D,B,E,F=3,10,8
+    E,C,D=4,10
+    F,D=8
+    Para que o algoritmo funcione corretamente todos os vertices devem serem identificados e mapeados juntamente com suas respectivas arestas.
 
-# Frameworks
+# Frameworks e Bibliotecas
 
-asdfasdf asdf asdf asdf
-
+Foi utilizado projetos do Spring como: Boot, Data JPA, Web, Test e Lombok.  
 
 # Testes
 
-asdfasdf asdf asdf asdf
-
+Para a realização dos testes unitários foi utilizado a Biblioteca JUnit.
 
 # Linguagem de Programação
 
-asdfasdf asdf asdf asdf
-
+A linguagem de programação que foi adotada é o Java 8, a praticidade de criação e manutenibilidade juntamente com suas bibliotecas e frameworks são incrivéis, com o Java 8 podemos criar códigos mais limpos e legiveis.
 
 # Banco de Dados
 
-asdfasdf asdf asdf asdf
+Para que os dados fossem armazenados foi utilizado o banco de dados MySql onde suas vantagens são: Segurança, Integridade e Desempenho.
 
 
 ## Ir para o [Deploy](deploy.md) ou Voltar para o [README](README.md)
