@@ -45,13 +45,11 @@ Observação: Todos os end-points serão consumidas e produzidas usando JSON.
 Para resolver o problema de encontrar a menor distância entre dois pontos, foi utilizado o algoritmo de Dijkstra (Grafo Ponderado).
 
     O algoritmo consiste em executar os seguintes passos sendo eles:
-
-    1 - Inicialização das variaveis contidas no grafo
-
-    2 - Verificação dos vertices com menor custo
-
-    3 - Relaxamento das arestas 
-
+       1 - Inicialização das variaveis contidas no grafo
+       2 - Verificação dos vertices com menor custo
+       3 - Relaxamento das arestas 
+    
+    Para representar o mapa abaixo foi utilizado um arquivo [mapa.properties](mapa.properties) onde contem a relação entre os vertices e suas arestas.
 
 # Frameworks
 
