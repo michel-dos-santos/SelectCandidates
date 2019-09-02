@@ -13,4 +13,4 @@ asdf asdf asdf asdf
 asdf asdf asdf asdf
 
 
-## Ir para [Solucao](solucao.md) ou Voltar para o [README](README.md)
+## Ir para [Solução](solucao.md) ou Voltar para o [README](README.md)
