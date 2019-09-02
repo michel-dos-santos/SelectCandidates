@@ -52,12 +52,19 @@ Para resolver o problema de encontrar a menor distância entre dois pontos, foi 
     Para representar o mapa abaixo foi utilizado um arquivo [mapa.properties] onde contem a relação entre os vertices e suas arestas.
 ![](./graph.png)
     A representação deste grafo é:
+    
     A,B=5
+    
     B,A,C,D=5,7,3
+    
     C,B,E=7,4
+    
     D,B,E,F=3,10,8
+    
     E,C,D=4,10
+    
     F,D=8
+    
     Para que o algoritmo funcione corretamente todos os vertices devem serem identificados e mapeados juntamente com suas respectivas arestas.
 
 # Frameworks e Bibliotecas
