@@ -49,7 +49,7 @@ Para resolver o problema de encontrar a menor distância entre dois pontos, foi 
        2 - Verificação dos vertices com menor custo
        3 - Relaxamento das arestas 
     
-    Para representar o mapa abaixo foi utilizado um arquivo [mapa.properties](mapa.properties) onde contem a relação entre os vertices e suas arestas.
+    Para representar o mapa abaixo foi utilizado um arquivo [mapa.properties](src/main/resources/mapa.properties) onde contem a relação entre os vertices e suas arestas.
 
 # Frameworks
 
