@@ -51,6 +51,7 @@ Para resolver o problema de encontrar a menor distância entre dois pontos, foi 
     
     Para representar o mapa abaixo foi utilizado um arquivo [mapa.properties] onde contem a relação entre os vertices e suas arestas.
 ![](./graph.png)
+
     A representação deste grafo é:
     
     A,B=5
