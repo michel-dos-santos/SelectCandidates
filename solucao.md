@@ -54,17 +54,18 @@ Para resolver o problema de encontrar a menor distância entre dois pontos, foi 
 
     A representação deste grafo é:
     
-    A,B=5
+    A,B=5  ----> De A para B a distância é 5
     
-    B,A,C,D=5,7,3
+    B,A,C,D=5,7,3  ----> De B para A a distância é 5, de B para C a distância é 7, de B para D a distância é 3  
     
-    C,B,E=7,4
+    C,B,E=7,4  ----> De C para B a distância é 7, de C para E a distância é 4 
     
-    D,B,E,F=3,10,8
+    D,B,E,F=3,10,8  ----> De D para B a distância é 3, de D para E a distância é 10, de D para F a distância é 8
     
-    E,C,D=4,10
+    E,C,D=4,10  ----> De E para C a distância é 4, de E para D a distância é 10 
     
-    F,D=8
+    F,D=8  ----> De F para D a distância é 8
+    ... E caso tivesse mais 
     
     Para que o algoritmo funcione corretamente todos os vertices devem serem identificados e mapeados juntamente com suas respectivas arestas.
 
