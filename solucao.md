@@ -28,4 +28,4 @@ asdfasdf asdf asdf asdf
 asdfasdf asdf asdf asdf
 
 
-## Voltar para o [README](README.md)
+## Ir para [Deploy](deploy.md) ou Voltar para o [README](README.md)
