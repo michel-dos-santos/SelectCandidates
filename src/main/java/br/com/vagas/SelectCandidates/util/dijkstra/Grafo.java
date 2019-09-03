@@ -13,10 +13,6 @@ public class Grafo {
 
 	private List<Vertice> grafo = new ArrayList<Vertice>();
 	
-	public Grafo(){
-		gerarGrafo();
-	}
-	
 	public Vertice getVertice(Vertice vertice) {
 		int index = -1;
 		if(vertice != null && (index = grafo.indexOf(vertice)) >= 0) {
@@ -29,9 +25,9 @@ public class Grafo {
 		return grafo;
 	}
 	
-	private void gerarGrafo() {
+	public void gerarGrafo() {
 		Properties mapa = new Properties();
-		InputStream inputStream = Grafo.class.getClassLoader().getResourceAsStream("mapa.properties");
+		InputStream inputStream = getInputStreamMapa();
 
 		try {
 			if (inputStream != null) {
@@ -77,22 +73,10 @@ public class Grafo {
 
 			inputStream.close();
 		} catch (IOException e) {
-			//TODO
 		}
 	}
 
-	public static void main(String args[]) {
-		Grafo teste = new Grafo();
-		Vertice i1 = teste.getVertice(new Vertice("C"));
-		Vertice i2 = teste.getVertice(new Vertice("A"));
-
-		List<Vertice> resultado = new ArrayList<Vertice>();
-		Dijkstra algoritmo = new Dijkstra();
-		resultado = algoritmo.getMenorCaminho(teste, i1, i2);
-		Long distancia = algoritmo.getMenorDistanciaEntreCandidatoVaga(teste, i1, i2);
-		
-		System.out.println("Esse é o menor caminho feito pelo algoritmo:" + resultado);
-		System.out.println("Esse é a menor distancia:" + distancia);
+	public InputStream getInputStreamMapa() {
+		return Grafo.class.getClassLoader().getResourceAsStream("mapa.properties");
 	}
-	
 }

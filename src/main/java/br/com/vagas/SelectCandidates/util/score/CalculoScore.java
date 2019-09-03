@@ -12,6 +12,7 @@ public class CalculoScore {
 		
 		//obtem distancia entre o candidato e a vaga com menor caminha possivel
 		Grafo grafo = new Grafo();
+		grafo.gerarGrafo();
 		Dijkstra dijkstra = new Dijkstra();
 		Long distanciaEntreCandidatoVaga = dijkstra.getMenorDistanciaEntreCandidatoVaga(grafo, grafo.getVertice(new Vertice(candidato.getLocalizacao().toString())), grafo.getVertice(new Vertice(vaga.getLocalizacao().toString())));
 		Integer distancia = getRelacaoEntreMenorDistanciaCandidatoVaga(distanciaEntreCandidatoVaga);
@@ -21,7 +22,7 @@ public class CalculoScore {
 		return (nivel + distancia) / 2;
 	}
 
-	private static Integer getRelacaoEntreMenorDistanciaCandidatoVaga(Long distanciaEntreCandidatoVaga) {
+	public static Integer getRelacaoEntreMenorDistanciaCandidatoVaga(Long distanciaEntreCandidatoVaga) {
 		
 		if(distanciaEntreCandidatoVaga <= 5){
 			return 100;
